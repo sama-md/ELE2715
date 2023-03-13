@@ -7,17 +7,26 @@ Este repositório contém o material de suporte utilizado na componente curricul
 ### Conteúdo
 
 **VHDL** introdução combinacional 
-- Circuito combinacional simples (cl_simples.vhd, cl_multiplas.vhd, cl_linha.vhd)
-- Circuito combinacional simples com vetores (cl_vetores.vhd, cl_vetores_posicao.vhd)
-- Circuito combinacional simples utilizando componentes (cl_comp_c1.vhd, cl_comp_c2.vhd, cl_comp.vhd, cl_comp_cones.vhd)
+- Circuito combinacional simples ([cl_simples.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_simples.vhd), [cl_multiplas.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_multiplas.vhd), [cl_linha.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_linha.vhd)
+- Circuito combinacional simples com vetores ([cl_vetores.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_vetores.vhd), [cl_vetores_posicao.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_vetores_posicao.vhd))
+- Circuito combinacional simples utilizando componentes ([cl_comp_c1.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_comp_c1.vhd), [cl_comp_c2.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_comp_c2.vhd), [cl_comp.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_comp.vhd), [cl_comp_cones.vhd](https://github.com/sama-md/ELE2715/combinacional/cl_comp_cones.vhd))
+- Scripts para simulação de circuitos no Modelsim ([sim_cl_simples.do](https://github.com/sama-md/ELE2715/combinacional/sim_cl_simples.do), [sim_cl_vetores.do](https://github.com/sama-md/ELE2715/combinacional/sim_cl_vetores.do), [sim_cl_cones.do](https://github.com/sama-md/ELE2715/combinacional/sim_cl_cones.do))
 
-**VHDL** introdução sequêncial
-- Fundamentos do Pandas
+**VHDL** introdução aos elementos de memória
+- Circuito de um flip-flop do tipo D ([ff_d.vhd](https://github.com/sama-md/ELE2715/memoria/ff_d.vhd))
+- Circuito de um flip-flop do tipo JK ([ff_jk.vhd](https://github.com/sama-md/ELE2715/memoria/ff_jk.vhd))
 
+**VHDL** introdução a máquina de estados
+- Circuito de uma máquina sequencial ([me_seq.vhd](https://github.com/sama-md/ELE2715/mde/me_seq.vhd))
+- Circuito de uma máquina de estados do tipo Moore com 1 processo ([me_moore1p.vhd](https://github.com/sama-md/ELE2715/mde/me_moore1p.vhd))
+- Circuito de uma máquina de estados do tipo Moore com 2 processos ([me_moore2p.vhd](https://github.com/sama-md/ELE2715/mde/me_moore2p.vhd))
+- Circuito de uma máquina de estados do Mealy com 2 procesos ([me_mealy.vhd](https://github.com/sama-md/ELE2715/mde/me_mealy.vhd))
 
+**VHDL** auxiliar
+- Circuito de um divisor de clock ([fp_div_clock.vhd](https://github.com/sama-md/ELE2715/block/fp_div_clock.vhd))
 
-
-### Licence
+---
+### Licença
 
 Shield : [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
@@ -25,15 +34,3 @@ Esta obra tem a [licença Creative Commons Atribuição-NãoComercial-SemDeriva�
 
 [![CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR)
 
-
-
-## text
-
-
-
-licensebuttons.net
-https://shields.io/
-
-
-
-https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.pt

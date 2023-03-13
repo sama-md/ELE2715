@@ -1,6 +1,7 @@
 # 
 # Copyright (C) 2023 Samaherni M. D.
-# Universidade Federal do Rio Grande do Norte (UFRN)
+# Laboratory of Automation, Control and Instrumentation (LACI)
+# Federal University of Rio Grande do Norte (UFRN)
 # 
 # This file is part of ELE2715 project (https://github.com/sama-md/ELE2715/). 
 # It is subject to the license terms in the LICENSE file found in the top-level 
