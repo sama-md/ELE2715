@@ -1,2 +1,4 @@
 # Ignore os arquivos de sistema do Mac
 .DS_store
+.gitignore
+.gitattributes
